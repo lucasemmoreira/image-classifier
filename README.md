@@ -1,19 +1,19 @@
 
 # Table of Contents
 
-1.  [What is this?](#org3c25991)
-2.  [Data](#org074f653)
+1.  [What is this?](#orgb314aea)
+2.  [Data](#org45f2614)
 
 
 
-<a id="org3c25991"></a>
+<a id="orgb314aea"></a>
 
 # What is this?
 
-This is a simple start for an image classifier. It is strongly based on the tutorial from tensor flow [(tensorflow image classification](https:https://www.tensorflow.org/lite/models/image_classification/overview)).
+This is a simple start for an image classifier. It is strongly based on the tutorial from tensor flow ([tensorflow image classification](http:https://www.tensorflow.org/lite/models/image_classification/overview)).
 
 
-<a id="org074f653"></a>
+<a id="org45f2614"></a>
 
 # Data
 
