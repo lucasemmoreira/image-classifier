@@ -1,0 +1,6 @@
+#+Title: Simple start for an image classifier
+#+author: Lucas E M Moreira
+#+email: lucasemmoreira@gmail.com
+
+* What is this?
+  This is a simple start for an image classifier. It is strongly based on the tutorial from tensor flow [[https:https://www.tensorflow.org/lite/models/image_classification/overview][(tensorflow image classification]]).
