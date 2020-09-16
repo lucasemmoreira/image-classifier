@@ -3,11 +3,11 @@
 #+email: lucasemmoreira@gmail.com
 
 * What is this?
-  This is a simple start for an image classifier. It is strongly based on the tutorial from tensor flow ([[http:https://www.tensorflow.org/lite/models/image_classification/overview][tensorflow image classification]]).
+  This is a simple start for an image classifier. It is strongly based on the tutorial from tensor flow ([[https://www.tensorflow.org/lite/models/image_classification/overview][tensorflow image classification]]).
 
 * Data
   In order to reproduce this code, you need data!
-  The data I used, was from [[https:https://www.kaggle.com/kmader/food41][kaggle food]]. In order to do so, create a folder in root called data.
+  The data I used, was from [[https://www.kaggle.com/kmader/food41][kaggle food]]. In order to do so, create a folder in root called data.
   The test made so far used only five classes of food from this data base, so to use the code to go, create a folder with the name food-5 inside the data folder.
   The structure you will have, will look like this:
 
