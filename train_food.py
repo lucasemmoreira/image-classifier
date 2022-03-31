@@ -34,16 +34,14 @@ val_ds = tf.keras.preprocessing.image_dataset_from_directory(
 
 data_augmentation = keras.Sequential(
     [
-        layers.experimental.preprocessing.RandomFlip("horizontal",
-                                                     input_shape=(img_height,
-                                                                  img_width,
-                                                                  3)),
+        layers.experimental.preprocessing.RandomFlip(
+            "horizontal", input_shape=(img_height, img_width, 3)),
         layers.experimental.preprocessing.RandomRotation(0.1),
         layers.experimental.preprocessing.RandomZoom(0.1),
     ]
 )
 
-num_classes = 5
+num_classes = 100
 
 
 model = Sequential([
@@ -58,7 +56,7 @@ model = Sequential([
     layers.Dropout(0.2),
     layers.Flatten(),
     layers.Dense(128, activation='relu'),
-    layers.Dense(num_classes)
+    # layers.Dense(num_classes)
 ])
 
 model.compile(
@@ -68,7 +66,7 @@ model.compile(
 
 
 print("start training! go go go!")
-epochs = 15
+epochs = 1
 
 history = model.fit(
     train_ds,
